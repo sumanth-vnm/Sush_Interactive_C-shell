@@ -1,6 +1,5 @@
-### **Project Structure**:
+** Code Structure
 
-    2021121005_Assignment3
     ├─ a.out
     ├─ bg.c
     ├─ cd.c
@@ -82,7 +81,7 @@ The shell can handle both input and output redirection individually and simultan
 
     - **ctrl-d:** Terminated the shell without causing distubance to the original terminal.
 
-- **replay (Bonus):** replay a command for every given amount of seconds and till upto a finite number of given seconds.Implemented in replay.c
+- **replay:** replay a command for every given amount of seconds and till upto a finite number of given seconds.Implemented in replay.c
 
 
 
