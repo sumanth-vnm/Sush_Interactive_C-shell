@@ -59,29 +59,29 @@ Implemented in syscom.c
 
 - **Input/output redirection:**
 The shell can handle both input and output redirection individually and simultaneously as well. Implemented in main.c
-    -  "<"  for Inpu redirection
+    -  "<"  for Input redirection
     - ">" for output redirection(writes the file given in argument) . 
     - ">>" for output redirection appends to the file given in argument.
 
 
 - **piping:** The shell can handle pipe commands (i.e, output of one pipe is sent as input to anothe pipe) seperated by "|" . The program can even handle the cases where input and output redirection commands are given in pipe commands .Implemented in pipecom.c
 
-- **jobs:** prints the current jobs in the background with theire status and pid and job number.Implemented in jobs.c(implemented with flags -r, -s).
+- **jobs:** prints the current jobs in the background with their status, pid and job number. Implemented in jobs.c(implemented with flags -r, -s).
 
-- **bg** Brings a stopped background process to running status.Implemented in bg.c
+- **bg** Brings a stopped background process to running status. Implemented in bg.c
 
-- **fg** Brings a running/stopped background process to foreground.implemented in fg.c.
+- **fg** Brings a running/stopped background process to foreground. Implemented in fg.c.
 
 - **sig** Passes a specified signal to the specified job number. Implemented in signals.c
 
 - **signal handling:**
-    - **ctrl-z:** stops the current executing foreground process without stopping the parent shell process.
+    - **ctrl-z:** Stops the current executing foreground process without stopping the parent shell process.
 
     - **ctrl-c:** Interrupts the current executing foreground process without interrupting the parent shell process.
 
-    - **ctrl-d:** Terminated the shell without causing distubance to the original terminal.
+    - **ctrl-d:** Terminated the shell without causing issue in the original terminal.
 
-- **replay:** replay a command for every given amount of seconds and till upto a finite number of given seconds.Implemented in replay.c
+- **replay:** replay a command for every given amount of seconds and till upto a finite number of given seconds. Implemented in replay.c
 
 
 
