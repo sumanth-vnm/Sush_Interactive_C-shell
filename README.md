@@ -59,9 +59,9 @@ Implemented in syscom.c
 
 - **Input/output redirection:**
 The shell can handle both input and output redirection individually and simultaneously as well. Implemented in main.c
-    -  "<"  for Inpur redirection
-    - ">" for out put redirection(writes the file given in argument) . 
-    - ">>" for output redirection appends to the  file given in argument.
+    -  "<"  for Inpu redirection
+    - ">" for output redirection(writes the file given in argument) . 
+    - ">>" for output redirection appends to the file given in argument.
 
 
 - **piping:** The shell can handle pipe commands (i.e, output of one pipe is sent as input to anothe pipe) seperated by "|" . The program can even handle the cases where input and output redirection commands are given in pipe commands .Implemented in pipecom.c
